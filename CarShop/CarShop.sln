@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop", "CarShop\CarShop.csproj", "{3B50CB1A-E110-40E9-84D8-98FBA2609A92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShop", "CarShop\CarShop.csproj", "{3B50CB1A-E110-40E9-84D8-98FBA2609A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop.Common", "CarShop.Common\CarShop.Common.csproj", "{96740AB9-D6D6-4841-A522-54B06570F8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop.Infrastructure", "CarShop.Infrastructure\CarShop.Infrastructure.csproj", "{0A9CD901-ED94-4449-977A-41D2D81A1512}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3B50CB1A-E110-40E9-84D8-98FBA2609A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B50CB1A-E110-40E9-84D8-98FBA2609A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B50CB1A-E110-40E9-84D8-98FBA2609A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96740AB9-D6D6-4841-A522-54B06570F8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96740AB9-D6D6-4841-A522-54B06570F8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96740AB9-D6D6-4841-A522-54B06570F8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96740AB9-D6D6-4841-A522-54B06570F8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9CD901-ED94-4449-977A-41D2D81A1512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9CD901-ED94-4449-977A-41D2D81A1512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9CD901-ED94-4449-977A-41D2D81A1512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9CD901-ED94-4449-977A-41D2D81A1512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
