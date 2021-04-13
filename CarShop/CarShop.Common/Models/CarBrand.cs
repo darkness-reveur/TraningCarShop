@@ -7,8 +7,9 @@ namespace CarShop.Common.Models
     public class CarBrand
     {
         public int Id { get; set; }
-        public int Name { get; set; }
 
-        public List<BrandModel> BrandModels { get; set; } // чтобы была возможность указать модель данного бренда
+        public string Name { get; set; }
+
+        public List<BrandModel> BrandModels { get; set; } // указание модели данного бренда
     }
 }

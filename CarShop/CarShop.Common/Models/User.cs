@@ -8,13 +8,16 @@ namespace CarShop.Common.Models
     public class User
     {
         public int Id { get; set; }
+
         public string Name { get; set; }
 
         public int OrderId { get; set; }
-        [ForeignKey("OrderId")]
-        public virtual Order Order { get; set; }
+
+        [ForeignKey("OrderId")] 
+        public virtual Order Order { get; set; } // ссылка на карзину
 
         public int? CarId { get; set; } // продаёт ли пользователь машину и какую
+
         [ForeignKey("CarId")]
         public virtual Car Car { get; set; }
     }
