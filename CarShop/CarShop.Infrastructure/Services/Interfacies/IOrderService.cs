@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CarShop.Infrastructure.SomeLogic.Interfacies
+namespace CarShop.Infrastructure.Services.Interfacies
 {
     public interface IOrderService
     {

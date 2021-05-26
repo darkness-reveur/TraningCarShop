@@ -1,5 +1,5 @@
-﻿using CarShop.Infrastructure.SomeLogic.Implemented;
-using CarShop.Infrastructure.SomeLogic.Interfacies;
+﻿using CarShop.Infrastructure.Services.Implementations;
+using CarShop.Infrastructure.Services.Interfacies;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CarShop

@@ -80,7 +80,7 @@ namespace CarShop
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
             //app.UseAuthentication();
 

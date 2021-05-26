@@ -10,6 +10,6 @@ namespace CarShop.Common.Models
 
         public string Name { get; set; }
 
-        public List<BrandModel> BrandModels { get; set; } // указание модели данного бренда
+        public virtual List<BrandModel> BrandModels { get; set; }
     }
 }

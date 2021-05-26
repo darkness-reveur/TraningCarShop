@@ -1,11 +1,7 @@
 ﻿using CarShop.Common.Models;
-using CarShop.Infrastructure.SomeLogic.Interfacies;
-using Microsoft.AspNetCore.Http;
+using CarShop.Infrastructure.Services.Interfacies;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CarShop.Controllers
 {
@@ -21,19 +17,19 @@ namespace CarShop.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Car>> Get()
+        public ActionResult<IEnumerable<Car>> GetAllCars()
         {
             return Ok(_carService.GetAllCars());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Car> Get(int id)
+        public ActionResult<Car> GetById(int id)
         {
             return _carService.GetCarById(id);
         }
 
         [HttpPost]
-        public IActionResult Post(Car car)
+        public IActionResult AddCar(Car car)
         {
             if (ModelState.IsValid)
             {
@@ -46,7 +42,7 @@ namespace CarShop.Controllers
         }
 
         [HttpPut]
-        public IActionResult Put(Car car)
+        public IActionResult UpdateCarInfo(Car car)
         {
             if (ModelState.IsValid)
             {
@@ -59,7 +55,7 @@ namespace CarShop.Controllers
         }
 
         [HttpDelete]
-        public IActionResult Delete(Car car)
+        public IActionResult DeleteCar(Car car)
         {
             _carService.DeleteCar(car);
 

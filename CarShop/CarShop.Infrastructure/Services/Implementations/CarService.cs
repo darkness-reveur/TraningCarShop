@@ -1,13 +1,13 @@
 ﻿using CarShop.Common.Models;
 using CarShop.Infrastructure.Databases;
-using CarShop.Infrastructure.SomeLogic.Interfacies;
+using CarShop.Infrastructure.Services.Interfacies;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CarShop.Infrastructure.SomeLogic.Implemented
+namespace CarShop.Infrastructure.Services.Implementations
 {
     public class CarService : ICarService
     {
